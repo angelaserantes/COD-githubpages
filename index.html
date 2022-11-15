@@ -5,8 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Github pages</title>
+    <style>
+        body{
+            background-color: plum;
+            font-family: monospace;
+            font-size: larger;
+        }   
+    </style>
 </head>
 <body>
+    <header>
+        <h1>Hola mundo desde GitHubPages</h1>
+    </header>
+    <section>
+        <h3>Rellena este formulario</h3>
+        <article >  
+            <form action="https://moodle.danielcastelao.org/daw/action_page.php" method="GET" enctype="text/plain">
+                <label for="nombre">Introduce tu nombre:</label><br> 
+                <input type="text" id="nombre" name="nombre" value="" placeholder="nombre usuario..." maxlength="9" size="15" required><br><br>
+                <label for="deporte">Selecciona tu deporte favorito:</label><br>
+                <select name="deportes" id="deporte">
+                    <option value="null">...</option>
+                    <option value="baloncesto">baloncesto</option>
+                    <option value="f1">fórmula 1</option>
+                    <option value="motos">motoGP</option>
+                </select><br><br>
+                <label for="marca">Marca cuánto deporte consumes a la semana en TV:</label><br>
+                <input type="range" id="marca" name="marcar" value=""><br><br>
+                <label for="fecha">¿Cuál es tu fecha de nacimiento?</label><br>
+                <input type="date" id="fecha" name="fecha" value=""><br><br>
+                <label for="mail">Ingresa tu correo electrónico:</label><br>
+                <input type="email" id="mail" name="mail" value="" placeholder="user@xxx.com" size="35"><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+       
+        </article>
     
+    </section>
 </body>
 </html>
