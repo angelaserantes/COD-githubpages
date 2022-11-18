@@ -8,8 +8,10 @@
     <style>
         body{
             background-color: plum;
-            font-family: monospace;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-size: larger;
+            display: flex;
+            position: absolute;
         }   
     </style>
 </head>
@@ -18,9 +20,11 @@
         <h1>Hola mundo desde GitHubPages</h1>
     </header>
     <section>
-        <h3>Rellena este formulario</h3>
+        <br><br><br>
+        <h3>Rellena este formulario:</h3>
         <article >  
-            <form action="https://moodle.danielcastelao.org/daw/action_page.php" method="GET" enctype="text/plain">
+            <fieldset>
+            <form action="#" method="GET" enctype="text/plain">
                 <label for="nombre">Introduce tu nombre:</label><br> 
                 <input type="text" id="nombre" name="nombre" value="" placeholder="nombre usuario..." maxlength="9" size="15" required><br><br>
                 <label for="deporte">Selecciona tu deporte favorito:</label><br>
@@ -38,7 +42,7 @@
                 <input type="email" id="mail" name="mail" value="" placeholder="user@xxx.com" size="35"><br><br>
                 <input type="submit" value="Enviar">
             </form>
-       
+        </fieldset>
         </article>
     
     </section>
